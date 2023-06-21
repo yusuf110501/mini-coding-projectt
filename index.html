@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+
+        <p>Enter the temperature in degrees Celsius (°C) at Celcius Box to convert Celsius to Fahrenheit</p>
+        <p>You can also enter the temperature in degrees fahrenheit (°F) at Fahrenheit Box to convert Fahrenheit to Celsius </p>
+  
+        <label for="celcius"><b>Celsius (°C):</b></label>
+        <input type="number" id="celsius" step="any">
+        
+        <button onclick="convert()">Convert</button>
+        <button onclick="clearInput()">Clear</button>
+
+        <label for="fahrenheit"><b>Fahrenheit (°F):</b></label>
+        <input type="number" id="fahrenheit" step="any">
+        
+        <div class="result">
+            <p>Calculation Method</p>
+            <span id="result"></span>
+    </div>
+    
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
